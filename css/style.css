@@ -16,6 +16,9 @@ h3{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+p{
+    margin: 0;
+}
 
 /*GENERAL STYLES END*/
 /*----------------------------------------------------------*/
@@ -182,6 +185,7 @@ h3{
 #team-section p{
     font-family: 'Droid Serif', serif;
     text-align: center;
+    color: black;
 }
 .team-item{
     padding: 40px;
@@ -209,5 +213,49 @@ h3{
     background: url("../bootstrap-project-photos/footer/world-map.jpg") no-repeat center center;
     background-size: cover;
     text-align: center;
+    padding: 60px;
+}
+#contact-section h3,p{
+   color: white;
+}
+form{
+    font-family: 'Montserrat', sans-serif;
+}
+#contact-section input{
+   width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+#contact-section input:not(:last-child){
+   margin: 10px; 
+}
+#contact-section input:last-child{
+   margin: 10px 10px 0 10px; 
+}
+#contact-section textarea{
+   width: 100%;
+    margin: 10px;
+    height: 187px;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
+}
+#contact-section button{
+    border-radius: 5px;
+    background-color: #0ed8d6;
+    border: 0;
+    color: white;
 }
 /*CONTACT STYLES END*/
+footer{
+    padding: 20px;
+}
+footer p{
+    color: black;
+}
+.toMiddle{
+    text-align: center;
+}
+
+
