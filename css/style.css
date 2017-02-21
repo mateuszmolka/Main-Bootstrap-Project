@@ -7,6 +7,8 @@ body{
 }
 section{
     padding: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +20,7 @@ h3{
 }
 p{
     margin: 0;
+    color: #777777;
 }
 
 /*GENERAL STYLES END*/
@@ -33,6 +36,9 @@ p{
     padding: 5px;
 
 }
+#main-nav.scroll{
+    background-color: rgba(14, 216, 214,0.7);;
+}
 .navbar-default .navbar-brand{
     font-family: 'Droid Serif', serif;
 }
@@ -45,6 +51,11 @@ p{
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover{
     color:#0ed8d6;
 }
+.navbar-default , .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+}
+
+
 
 /*NAV BAR STYLES END*/
 /*----------------------------------------------------------*/
@@ -88,6 +99,7 @@ p{
 }
 #services-section p{
     font-family: 'Droid Serif', serif;
+    
 }
 .service-item{
     margin-top: 30px;
@@ -117,10 +129,11 @@ p{
 #portfolio-section p{
     font-family: 'Droid Serif', serif;
     text-align: center;
+    color:#333333;
 }
 .portfolio-item{
     background-color: white;
-    
+    margin-bottom: 10px;
 }
 #hidding-div{
     overflow: hidden;
@@ -185,26 +198,26 @@ p{
 #team-section p{
     font-family: 'Droid Serif', serif;
     text-align: center;
-    color: black;
+    color: #333333;
 }
 .team-item{
-    padding: 40px;
+    padding: 40px 0px;
 }
 .team-item>img {
     margin: 0 auto;
 }
 .team-item i{
     background-color: black;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
     line-height: 20px;
     color: white;
     border-radius: 50%;
     transition: 1s ease all;
 }
 .team-item i:hover{
-    background-color: green;
+    background-color: rgb(14, 216, 214);
 }
 /*TEAM STYLES END*/
 /*----------------------------------------------------------*/
@@ -249,13 +262,35 @@ form{
 }
 /*CONTACT STYLES END*/
 footer{
-    padding: 20px;
+    padding: 10px;
 }
 footer p{
-    color: black;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
-.toMiddle{
+footer i{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    line-height: 5px;
+    color: white;
+    border-radius: 50%;
+    transition: 1s ease all;
+}
+footer a{
+    text-decoration: none;
+     color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+footer .toMiddle{
     text-align: center;
 }
+footer a,p{
+    line-height: 50px;
+}
+
 
 
